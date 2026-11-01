@@ -58,7 +58,6 @@ app.get('/marvel', (req, res) => {
 });
 
 app.get('/dc', (req, res)=>{
-    const nome = req.params.nome;
     res.send(`<!DOCTYPE html>
 <html>
     <head>
